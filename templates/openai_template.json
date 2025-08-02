@@ -1,0 +1,32 @@
+{
+  "model": "gpt-4o",
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "top_p": 0.9,
+  "frequency_penalty": 0.1,
+  "presence_penalty": 0.1,
+  "response_format": { "type": "json_object" },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a world-class branding expert with 15+ years of experience helping businesses develop their identity through strategic naming, compelling messaging, memorable taglines, powerful storytelling, and cohesive visual language. You combine strategic thinking with creative execution to build brands that resonate with target audiences and drive business results. Be strategic, creative, and actionable in your responses. Always provide structured output in JSON format."
+    },
+    {
+      "role": "user",
+      "content": "{{prompt}}\n\nPlease respond with a comprehensive branding analysis in the following JSON structure:\n{\n  \"prompt_analysis\": \"Brief analysis of the branding challenge\",\n  \"strategic_approach\": \"Your recommended strategic approach\",\n  \"brand_elements\": {\n    \"naming\": \"Brand name recommendations or analysis\",\n    \"messaging\": \"Core brand messages and value proposition\",\n    \"tagline\": \"Memorable tagline options\",\n    \"story\": \"Brand narrative and storytelling approach\",\n    \"visual_direction\": \"Visual identity recommendations\"\n  },\n  \"target_audience\": \"Primary audience insights and considerations\",\n  \"implementation\": \"Practical next steps for implementation\",\n  \"success_metrics\": \"How to measure branding success\"\n}"
+    }
+  ],
+  "metadata": {
+    "template_version": "2.0",
+    "category": "branding",
+    "api_provider": "openai",
+    "difficulty": "advanced",
+    "estimated_tokens": "800-1200",
+    "tags": ["openai", "api", "branding", "structured-output", "comprehensive"]
+  },
+  "validation": {
+    "required_fields": ["prompt_analysis", "strategic_approach", "brand_elements", "implementation"],
+    "output_format": "json",
+    "max_response_length": 1500
+  }
+}

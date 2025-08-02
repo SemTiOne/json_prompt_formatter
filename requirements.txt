@@ -1,0 +1,18 @@
+# JSON Prompt Formatter Dependencies
+# Core Python libraries (built-in, no installation needed)
+# argparse - Command line argument parsing
+# json - JSON parsing and generation  
+# logging - Logging functionality
+# pathlib - Modern path handling
+# sys - System-specific parameters
+# os - Operating system interface
+# typing - Type hints support
+
+# Note: This project uses only Python standard library modules
+# No external dependencies required for core functionality
+
+# Optional development dependencies (uncomment if needed):
+# pytest>=7.0.0          # For testing
+# black>=22.0.0          # Code formatting
+# flake8>=4.0.0          # Code linting
+# mypy>=0.950            # Type checking
