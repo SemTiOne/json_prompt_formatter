@@ -32,12 +32,12 @@ pip install -e .
 ```
 
 ### Requirements
-- Python 3.8+
+- Python 3+
 - No external dependencies required
 
 ## 🚀 Quick Start
 
-### CLI Usage (New!)
+### CLI Usage
 ```bash
 # Format a single prompt
 json-prompt-formatter format "Create a marketing campaign for sustainable fashion" -t marketer
