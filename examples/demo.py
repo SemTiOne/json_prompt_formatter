@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Demo script showing how to use JSON Prompt Formatter programmatically
 """
