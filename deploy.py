@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Deployment script for JSON Prompt Formatter
 Automates building, testing, and publishing to PyPI
